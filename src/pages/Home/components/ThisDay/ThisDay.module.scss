@@ -1,0 +1,38 @@
+.root {
+  border: 1px solid var(--bd-color);
+  border-radius: var(--bd-radius);
+  box-shadow: var(--cart-shadow);
+  padding: var(--cart-p);
+  max-width: 400px;
+  width: 100%;
+  background: var(--bg-light);
+}
+
+.top_bx {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 30px;
+  svg {
+    width: 120px;
+    height: auto;
+  }
+  .this_temp {
+    color: var(--c-prim);
+    font-size: 96px;
+    font-weight: 500;
+  }
+  .this_day_name {
+    color: var(--c-dark);
+    font-size: 40px;
+  }
+}
+
+.bot_bx {
+  .this_time,
+  .this_city {
+    color: var(--c-base);
+    font-size: 25px;
+  }
+}
