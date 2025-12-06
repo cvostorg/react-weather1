@@ -1,7 +1,7 @@
 import React from 'react'
 import s from './Header.module.scss'
 import { GlobalSvgSelector } from '../../assets/icons/global/GlobalSvgSelector'
-import Select, { StylesConfig } from 'react-select';
+import Select/* , { StylesConfig } */ from 'react-select';
 
 export const Header = () => {
   // const theme = useTheme();

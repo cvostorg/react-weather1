@@ -1,7 +1,7 @@
 import React from 'react'
 
 import s from './ThisDayInfo.module.scss';
-import { GlobalSvgSelector } from '../../../../assets/icons/global/GlobalSvgSelector';
+// import { GlobalSvgSelector } from '../../../../assets/icons/global/GlobalSvgSelector';
 import cloud from '../../../../assets/images/cloud.png';
 import { ThisDayItem } from './ThisDayItem';
 

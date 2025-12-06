@@ -1,5 +1,5 @@
 import React from 'react';
-import Select from 'react-select';
+// import Select from 'react-select';
 import { GlobalSvgSelector } from '../../assets/icons/global/GlobalSvgSelector';
 import { Item } from '../../pages/Home/components/ThisDayInfo/ThisDayInfo';
 import { ThisDayItem } from '../../pages/Home/components/ThisDayInfo/ThisDayItem';
