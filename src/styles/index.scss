@@ -1,24 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-@import '~normalize.css';
+@use '../../node_modules/normalize.css/normalize.css';
 
-@import './root';
+@use 'variables';
+@use 'root';
+@use 'base';
+@use 'simple';
 
-*,
-*:after,
-*:before {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: 'Montserrat', sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-}
-#root {
-  padding: var(--root-p, 0);
-}
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-}

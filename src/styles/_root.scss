@@ -1,0 +1,29 @@
+:root {
+  --root-p: 0 12px;
+
+  --t-gap: 20px;
+
+  --c-prim: #4793ff;
+  --c-dark: #222;
+  --c-base: #939cb0;
+  --bg-light: #fff;
+  --bg-prim: rgba(71, 147, 255, 0.2);
+
+  --bd-color: #f2f2f2;
+  --bd-radius: 16px;
+
+  --cart-shadow: 2px 5px 25px -3px rgba(144, 144, 144, 0.25);
+  --cart-p: 21px 20px;
+}
+html {
+  color-scheme: light;
+}
+html[data-theme='dark'] {
+  color-scheme: dark;
+
+  --c-dark: #eee;
+  --bg-light: #222;
+
+  --bd-color: #101010;
+  --cart-shadow: 2px 5px 25px -3px rgba(15, 15, 15, 0.28);
+}

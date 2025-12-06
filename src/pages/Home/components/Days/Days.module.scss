@@ -65,7 +65,7 @@
 
 .cancel,
 .tab {
-  box-shadow: 2px 5px 25px -3px rgba(180, 180, 180, 0.25);
+  box-shadow: var(--cart-shadow);
   border-radius: 5px;
   padding: 9px 20px;
   background-color: var(--bg-light);

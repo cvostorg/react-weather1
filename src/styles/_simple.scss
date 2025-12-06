@@ -1,0 +1,13 @@
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+  background: transparent;
+  padding: 0;
+  border: 0;
+}

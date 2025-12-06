@@ -30,7 +30,6 @@ export const Popup = () => {
   ];
   return (
     <div className={s.root}>
-      <div className={s.blur}></div>
       <div className={s.popup}>
         <div className={s.day}>
           <div className={s.day__temp}>20°</div>
@@ -54,6 +53,7 @@ export const Popup = () => {
           <GlobalSvgSelector id="close" />
         </div>
       </div>
+      <div className={s.blur}></div>
     </div>
   );
 };
